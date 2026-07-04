@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1% a Cada Dia — O guia prático para construir hábitos que transformam sua vida</title>
+<meta name="description" content="Descubra como melhorar apenas 1% por dia pode te levar 37x mais longe em um ano. Um guia prático, direto e aplicável para sair da estagnação e construir hábitos que duram. Por apenas R$9,90.">
+<link rel="canonical" href="https://seudominio.github.io/1-porcento-a-cada-dia/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="1% a Cada Dia — Pequenas escolhas. Grandes transformações.">
+<meta property="og:description" content="O guia prático para construir hábitos melhores e transformar sua vida para sempre. 1% melhor por dia = 37x melhor em um ano.">
+<meta property="og:image" content="https://seudominio.github.io/1-porcento-a-cada-dia/capa.jpg">
+<meta property="og:url" content="https://seudominio.github.io/1-porcento-a-cada-dia/">
+<meta property="og:locale" content="pt_BR">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="1% a Cada Dia — Pequenas escolhas. Grandes transformações.">
+<meta name="twitter:description" content="O guia prático para construir hábitos melhores e transformar sua vida para sempre.">
+<meta name="twitter:image" content="https://seudominio.github.io/1-porcento-a-cada-dia/capa.jpg">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230B0B0C%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 fill=%22%23C6A15B%22 text-anchor=%22middle%22 font-family=%22Georgia%22>1%25</text></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "1% a Cada Dia",
+  "description": "Um guia prático para construir hábitos melhores e transformar sua vida para sempre.",
+  "bookFormat": "https://schema.org/EBook",
+  "offers": {
+    "@type": "Offer",
+    "price": "9.90",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg: #070607;
+    --bg-soft: #0F0D0D;
+    --bg-card: #171314;
+    --line: rgba(255,255,255,0.10);
+    --line-strong: rgba(255,255,255,0.20);
+    --fg: #FAF7F0;
+    --fg-dim: #C7C3B8;
+    --fg-mute: #8a8680;
+    --gold: #E3A83D;
+    --gold-bright: #FFCE73;
+    --gold-deep: #9C6F1F;
+    --copper: #E37B4C;
+    --gold-dim: rgba(227,168,61,0.18);
+    --gold-glow: rgba(227,168,61,0.35);
+    --green: #8FBF86;
+    --radius: 14px;
+    --maxw: 1120px;
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+    --ease: cubic-bezier(.19,1,.22,1);
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; transition-duration:0.01ms !important;}
+  }
+
+  body{
+    background:var(--bg);
+    color:var(--fg);
+    font-family:var(--sans);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+    position:relative;
+  }
+
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:2;
+    pointer-events:none;
+    opacity:0.045;
+    mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  img{max-width:100%; display:block;}
+
+  a{color:inherit; text-decoration:none;}
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+
+  ::selection{background:var(--gold-dim); color:var(--gold-bright);}
+
+  :focus-visible{outline:2px solid var(--gold); outline-offset:3px; border-radius:4px;}
+
+  h1,h2,h3{font-family:var(--serif); font-weight:500; letter-spacing:-0.01em;}
+
+  .eyebrow{
+    font-size:12.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .eyebrow::before{content:""; width:14px; height:1px; background:var(--gold);}
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:15px;
+    padding:16px 30px;
+    border-radius:999px;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .35s var(--ease), box-shadow .35s var(--ease), background .3s;
+    white-space:nowrap;
+  }
+  .btn-primary{
+    background:linear-gradient(180deg, var(--gold-bright), var(--gold));
+    color:#161208;
+    box-shadow:0 1px 0 rgba(255,255,255,.4) inset, 0 10px 30px -10px rgba(198,161,91,.55);
+  }
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(255,255,255,.4) inset, 0 16px 34px -8px rgba(198,161,91,.7);}
+  .btn-ghost{
+    background:transparent;
+    color:var(--fg);
+    border:1px solid var(--line-strong);
+  }
+  .btn-ghost:hover{border-color:var(--gold); color:var(--gold-bright); transform:translateY(-2px);}
+  .btn-block{width:100%;}
+  .btn[disabled]{opacity:.55; cursor:not-allowed; transform:none !important;}
+
+  /* NAV */
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    backdrop-filter:blur(14px) saturate(140%);
+    background:rgba(11,11,12,0.72);
+    border-bottom:1px solid var(--line);
+  }
+  nav.wrap{display:flex; align-items:center; justify-content:space-between; height:72px;}
+  .brand{font-family:var(--serif); font-size:19px; font-weight:600; letter-spacing:0.01em; display:flex; align-items:center; gap:8px;}
+  .brand span{color:var(--gold);}
+  .nav-cta{display:flex; align-items:center; gap:14px;}
+  .nav-cta .btn{padding:11px 22px; font-size:13.5px;}
+
+  section{position:relative;}
+  .reveal{opacity:0; transform:translateY(22px); transition:opacity .9s var(--ease), transform .9s var(--ease);}
+  .reveal.in{opacity:1; transform:none;}
+
+  /* HERO */
+  .hero{
+    padding:168px 0 100px;
+    position:relative;
+    background:
+      radial-gradient(55% 50% at 80% 4%, rgba(227,168,61,.28), transparent 62%),
+      radial-gradient(45% 35% at 6% 92%, rgba(227,123,76,.14), transparent 60%),
+      radial-gradient(80% 60% at 50% 0%, rgba(255,255,255,.03), transparent 70%);
+  }
+  .hero-grid{display:grid; grid-template-columns:1.05fr 0.95fr; gap:64px; align-items:center;}
+  .hero h1{
+    font-size:clamp(38px, 5.2vw, 62px);
+    line-height:1.06;
+    margin:22px 0 22px;
+  }
+  .hero h1 em{font-style:italic; color:var(--gold-bright);}
+  .hero p.lead{
+    font-size:18px; color:var(--fg-dim); max-width:480px; margin-bottom:34px;
+  }
+  .hero-ctas{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:30px;}
+  .hero-proof{display:flex; gap:22px; flex-wrap:wrap; font-size:13px; color:var(--fg-dim);}
+  .hero-proof b{color:var(--fg); font-weight:700;}
+
+  .hero-media{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    padding-bottom:40px;
+  }
+  .hero-cover-wrap{position:relative; max-width:300px; margin:0 auto;}
+  .hero-cover{
+    width:100%;
+    border-radius:10px;
+    transform:rotate(3deg);
+    box-shadow:0 50px 100px -30px rgba(0,0,0,.8), 0 0 100px -15px var(--gold-glow);
+    border:1px solid rgba(255,255,255,.10);
+  }
+  .hero-cover-wrap .badge-float{
+    position:absolute; top:-14px; left:-10px;
+    background:var(--gold-bright); color:#171207;
+    font-size:11.5px; font-weight:800; letter-spacing:.03em;
+    padding:7px 14px; border-radius:999px; transform:rotate(-6deg);
+    box-shadow:0 10px 24px -8px rgba(0,0,0,.5);
+    z-index:3;
+  }
+  .hero-floatcard{
+    position:absolute;
+    bottom:-30px;
+    right:calc(50% - 240px);
+    width:230px;
+    background:linear-gradient(165deg, var(--bg-card), #100e0f);
+    border:1px solid var(--line-strong);
+    border-radius:16px;
+    padding:16px 18px 14px;
+    box-shadow:0 30px 60px -25px rgba(0,0,0,.8), 0 0 0 1px rgba(227,168,61,.06);
+  }
+  .hero-floatcard .cap{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--fg-mute); display:flex; justify-content:space-between; margin-bottom:8px;}
+  .hero-floatcard .chart-legend{margin-top:8px; font-size:10.5px; gap:12px;}
+  .hero-floatcard .chart-numbers{margin-top:10px; padding-top:10px;}
+  .hero-floatcard .chart-numbers .num{font-size:19px;}
+  .hero-floatcard .chart-numbers .lbl{font-size:9.5px;}
+
+  .hero-visual{
+    background:linear-gradient(165deg, var(--bg-card), #100e0f);
+    border:1px solid var(--line-strong);
+    border-radius:20px;
+    padding:28px 26px 22px;
+    box-shadow:0 40px 90px -40px rgba(0,0,0,.8), 0 0 0 1px rgba(227,168,61,.06), 0 0 60px -10px var(--gold-glow);
+  }
+  .hero-visual .cap{font-size:12px; text-transform:uppercase; letter-spacing:.12em; color:var(--fg-mute); display:flex; justify-content:space-between; margin-bottom:14px;}
+  .chart-legend{display:flex; gap:18px; margin-top:14px; font-size:12.5px; color:var(--fg-dim);}
+  .chart-legend span{display:inline-flex; align-items:center; gap:6px;}
+  .dot{width:9px; height:9px; border-radius:50%; display:inline-block;}
+  .dot.gold{background:var(--gold-bright);}
+  .dot.gray{background:#4a4a4a;}
+  .chart-numbers{display:flex; justify-content:space-between; margin-top:18px; padding-top:18px; border-top:1px solid var(--line);}
+  .chart-numbers div{text-align:center;}
+  .chart-numbers .num{font-family:var(--serif); font-size:26px; color:var(--gold-bright);}
+  .chart-numbers .lbl{font-size:11.5px; color:var(--fg-mute); text-transform:uppercase; letter-spacing:.08em; margin-top:2px;}
+
+  .growth-path{stroke-dasharray:600; stroke-dashoffset:600; transition:stroke-dashoffset 2s var(--ease);}
+  .growth-path.in{stroke-dashoffset:0;}
+  .decline-path{stroke-dasharray:600; stroke-dashoffset:600; transition:stroke-dashoffset 2s var(--ease) .2s;}
+  .decline-path.in{stroke-dashoffset:0;}
+
+  /* SECTION GENERIC */
+  .section{padding:100px 0;}
+  .section-head{max-width:640px; margin-bottom:56px;}
+  .section-head h2{font-size:clamp(28px,3.4vw,40px); margin-top:14px; line-height:1.15;}
+  .section-head p{color:var(--fg-dim); font-size:16.5px; margin-top:16px;}
+  .divider{height:1px; background:var(--line); border:none; margin:0;}
+
+  /* SECTION 2 — why people fail */
+  .fail-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;}
+  .fail-card{background:var(--bg-soft); padding:34px 30px;}
+  .fail-card .ico{width:38px; height:38px; margin-bottom:20px; color:var(--gold);}
+  .fail-card h3{font-size:19px; color:var(--fg); margin-bottom:10px; font-weight:600;}
+  .fail-card p{font-size:14.5px; color:var(--fg-dim);}
+
+  /* SECTION 3 — the compounding concept */
+  .concept{
+    background:
+      radial-gradient(50% 60% at 90% 20%, rgba(227,168,61,.08), transparent 65%),
+      var(--bg-soft);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .concept-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center;}
+  .big-number{font-family:var(--serif); font-size:clamp(64px,10vw,120px); color:var(--gold-bright); line-height:1; letter-spacing:-0.02em;}
+  .big-number sup{font-size:0.35em; top:-0.6em;}
+  .concept p{color:var(--fg-dim); font-size:16px; margin-top:16px; max-width:480px;}
+  .flight-note{margin-top:26px; padding:18px 20px; border-left:2px solid var(--gold); background:rgba(198,161,91,0.06); font-size:14px; color:var(--fg-dim); border-radius:0 10px 10px 0;}
+  .flight-note b{color:var(--fg);}
+
+  /* SECTION 4 — inside */
+  .inside-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px;}
+  .inside-card{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 22px;
+    transition:transform .3s var(--ease), border-color .3s;
+  }
+  .inside-card:hover{transform:translateY(-4px); border-color:var(--line-strong);}
+  .inside-card .check{width:22px; height:22px; border-radius:50%; background:var(--gold-dim); color:var(--gold-bright); display:flex; align-items:center; justify-content:center; font-size:13px; margin-bottom:16px;}
+  .inside-card h3{font-size:15.5px; font-weight:700; font-family:var(--sans); color:var(--fg); margin-bottom:6px;}
+  .inside-card p{font-size:13px; color:var(--fg-dim);}
+
+  /* SECTION 5 — benefits */
+  .benefits{display:grid; grid-template-columns:repeat(2,1fr); gap:14px;}
+  .benefit-row{
+    display:flex; gap:18px; align-items:flex-start;
+    padding:22px 24px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:var(--bg-card);
+  }
+  .benefit-row .n{font-family:var(--serif); color:var(--gold); font-size:22px; min-width:30px;}
+  .benefit-row h3{font-size:16px; font-family:var(--sans); font-weight:700; margin-bottom:4px;}
+  .benefit-row p{font-size:13.5px; color:var(--fg-dim);}
+
+  /* SECTION 6 — free sample */
+  .sample-card{
+    background:linear-gradient(160deg, var(--bg-card), var(--bg-soft));
+    border:1px solid var(--line-strong);
+    border-radius:20px;
+    padding:52px;
+    display:grid;
+    grid-template-columns:1fr 340px;
+    gap:40px;
+    align-items:center;
+  }
+  .sample-card h2{font-size:28px; margin:14px 0 12px;}
+  .sample-card p{color:var(--fg-dim); font-size:15.5px; max-width:420px;}
+  .sample-form{display:flex; flex-direction:column; gap:12px;}
+  .field{
+    background:var(--bg);
+    border:1px solid var(--line-strong);
+    border-radius:10px;
+    padding:14px 16px;
+    color:var(--fg);
+    font-family:var(--sans);
+    font-size:15px;
+    width:100%;
+    transition:border-color .25s;
+  }
+  .field:focus{border-color:var(--gold); outline:none;}
+  .field::placeholder{color:var(--fg-mute);}
+  .form-note{font-size:12px; color:var(--fg-mute);}
+  .form-msg{font-size:13.5px; margin-top:4px; display:none;}
+  .form-msg.show{display:block;}
+  .form-msg.ok{color:var(--green);}
+
+  /* SECTION 7 — offer */
+  .offer{
+    background:
+      radial-gradient(65% 55% at 50% 0%, rgba(227,168,61,.16), transparent 62%),
+      radial-gradient(50% 40% at 90% 90%, rgba(227,123,76,.10), transparent 60%);
+    padding:110px 0 130px;
+  }
+  .offer-top{max-width:640px; margin:0 auto 56px; text-align:center;}
+  .offer-top .eyebrow{justify-content:center; display:inline-flex;}
+  .offer-top h2{font-size:clamp(30px,4vw,44px); margin-top:16px; line-height:1.14;}
+  .offer-top p{color:var(--fg-dim); font-size:16.5px; margin-top:16px;}
+
+  .offer-showcase{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap:54px;
+    align-items:center;
+    max-width:980px;
+    margin:0 auto 60px;
+  }
+  .cover-frame{
+    position:relative;
+    display:flex;
+    justify-content:center;
+  }
+  .cover-frame img{
+    width:100%;
+    max-width:280px;
+    border-radius:8px;
+    box-shadow:0 40px 80px -20px rgba(0,0,0,.75), 0 0 90px -20px var(--gold-glow);
+    transform:rotate(-3deg);
+    border:1px solid rgba(255,255,255,.08);
+  }
+  .cover-frame .badge-float{
+    position:absolute; top:-14px; right:6px;
+    background:var(--gold-bright); color:#171207;
+    font-size:11.5px; font-weight:800; letter-spacing:.03em;
+    padding:7px 14px; border-radius:999px; transform:rotate(6deg);
+    box-shadow:0 10px 24px -8px rgba(0,0,0,.5);
+  }
+  .see-receive{display:grid; gap:26px;}
+  .sr-block .eyebrow{margin-bottom:10px;}
+  .sr-block ul{list-style:none;}
+  .sr-block ul li{
+    font-size:14.5px; color:var(--fg-dim); padding:6px 0 6px 26px; position:relative;
+  }
+  .sr-block ul li::before{content:"→"; position:absolute; left:0; color:var(--gold);}
+
+  .offer-card{
+    max-width:600px;
+    margin:0 auto;
+    background:linear-gradient(160deg, var(--bg-card), #120f10);
+    border:1px solid var(--gold-dim);
+    border-radius:24px;
+    padding:52px 46px;
+    text-align:center;
+    position:relative;
+    box-shadow:0 60px 110px -50px rgba(0,0,0,.8), 0 0 90px -20px rgba(227,168,61,.22);
+  }
+  .offer-tag{
+    position:absolute; top:-14px; left:50%; transform:translateX(-50%);
+    background:var(--gold); color:#171207; font-size:12px; font-weight:800;
+    padding:6px 16px; border-radius:999px; letter-spacing:.05em; text-transform:uppercase;
+  }
+  .price-row{display:flex; align-items:baseline; justify-content:center; gap:14px; margin:26px 0 4px;}
+  .price-old{font-size:20px; color:var(--fg-mute); text-decoration:line-through;}
+  .price-new{font-family:var(--serif); font-size:56px; color:var(--gold-bright);}
+  .price-new .cents{font-size:0.5em; vertical-align:top;}
+  .price-save{font-size:13px; color:var(--green); font-weight:700; margin-bottom:26px;}
+  .offer-feats{list-style:none; text-align:left; display:inline-block; margin:6px 0 30px;}
+  .offer-feats li{font-size:14.5px; color:var(--fg-dim); padding:7px 0; display:flex; gap:10px; align-items:center;}
+  .offer-feats li svg{color:var(--gold); flex-shrink:0;}
+
+  /* SECTION 8 — guarantee */
+  .guarantee{display:flex; gap:34px; align-items:center; background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius); padding:38px 40px;}
+  .guarantee .seal{width:76px; height:76px; flex-shrink:0; color:var(--gold);}
+  .guarantee h3{font-size:19px; margin-bottom:8px;}
+  .guarantee p{color:var(--fg-dim); font-size:14.5px;}
+
+  /* FAQ */
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{
+    width:100%; text-align:left; background:none; border:none; color:var(--fg);
+    padding:22px 0; font-size:16.5px; font-weight:600; font-family:var(--sans);
+    display:flex; justify-content:space-between; align-items:center; cursor:pointer; gap:20px;
+  }
+  .faq-q .plus{font-size:20px; color:var(--gold); transition:transform .3s; flex-shrink:0;}
+  .faq-item.open .plus{transform:rotate(45deg);}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .4s var(--ease);}
+  .faq-a p{padding-bottom:20px; color:var(--fg-dim); font-size:14.5px; max-width:640px;}
+
+  footer{border-top:1px solid var(--line); padding:44px 0 30px;}
+  .foot-row{display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; align-items:center;}
+  .foot-links{display:flex; gap:24px; flex-wrap:wrap;}
+  .foot-links a{font-size:13px; color:var(--fg-dim); transition:color .2s;}
+  .foot-links a:hover{color:var(--gold-bright);}
+  .foot-copy{font-size:12.5px; color:var(--fg-mute); margin-top:26px;}
+
+  .sticky-cta{
+    position:fixed; bottom:18px; left:50%; transform:translateX(-50%) translateY(120%);
+    z-index:90; transition:transform .4s var(--ease);
+    background:rgba(20,20,22,.88); backdrop-filter:blur(12px);
+    border:1px solid var(--line-strong); border-radius:999px;
+    padding:10px 10px 10px 20px; display:flex; align-items:center; gap:14px;
+    box-shadow:0 20px 50px -20px rgba(0,0,0,.6);
+  }
+  .sticky-cta.show{transform:translateX(-50%) translateY(0);}
+  .sticky-cta span{font-size:13.5px; color:var(--fg-dim);}
+  .sticky-cta .btn{padding:10px 20px; font-size:13.5px;}
+
+  @media (max-width:920px){
+    .hero-grid{grid-template-columns:1fr; gap:48px;}
+    .hero-media{padding-bottom:60px;}
+    .hero-floatcard{right:calc(50% - 210px);}
+    .fail-grid{grid-template-columns:1fr;}
+    .concept-grid{grid-template-columns:1fr; gap:34px;}
+    .inside-grid{grid-template-columns:repeat(2,1fr);}
+    .benefits{grid-template-columns:1fr;}
+    .sample-card{grid-template-columns:1fr; padding:34px 26px;}
+    .offer-showcase{grid-template-columns:1fr; gap:36px;}
+    .cover-frame img{max-width:220px;}
+    .guarantee{flex-direction:column; text-align:center;}
+    .nav-cta .btn-ghost{display:none;}
+  }
+  @media (max-width:560px){
+    .hero{padding:130px 0 70px;}
+    .hero-cover-wrap{max-width:220px;}
+    .hero-floatcard{width:190px; right:calc(50% - 165px); bottom:-24px; padding:12px 14px 10px;}
+    .inside-grid{grid-template-columns:1fr;}
+    .offer-card{padding:38px 24px;}
+    .section{padding:74px 0;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap" aria-label="Navegação principal">
+    <a href="#top" class="brand" aria-label="1% a Cada Dia — início">1<span>%</span> a Cada Dia</a>
+    <div class="nav-cta">
+      <a href="#amostra" class="btn btn-ghost">Amostra gratuita</a>
+      <a href="#oferta" class="btn btn-primary">Quero começar agora</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Guia prático de hábitos</span>
+        <h1>Você não precisa mudar de vida hoje.<br>Precisa apenas melhorar <em>1%</em>.</h1>
+        <p class="lead">Duas pessoas com o mesmo ponto de partida. Uma ajusta o rumo em 2 graus por dia. A outra segue em linha reta. Meses depois, uma chegou longe — a outra nem percebeu que estava perdida.</p>
+        <div class="hero-ctas">
+          <a href="#oferta" class="btn btn-primary">Quero começar agora</a>
+          <a href="#amostra" class="btn btn-ghost">Baixar amostra gratuita</a>
+        </div>
+        <div class="hero-proof">
+          <span><b>48</b> páginas práticas</span>
+          <span><b>5</b> capítulos + exercícios</span>
+          <span><b>Plano</b> de ação de 90 dias</span>
+        </div>
+      </div>
+
+      <div class="hero-media reveal" id="heroVisual">
+        <div class="hero-cover-wrap">
+          <span class="badge-float">Novo lançamento</span>
+          <img src="capa.jpg" alt="Capa do e-book 1% a Cada Dia" width="380" height="513" class="hero-cover">
+        </div>
+        <div class="hero-floatcard">
+          <div class="cap"><span>Mesmo esforço diário</span><span>12 meses</span></div>
+          <svg viewBox="0 0 260 90" width="100%" height="auto" role="img" aria-label="Gráfico comparando o efeito de melhorar 1% por dia com o de piorar 1% por dia ao longo de um ano">
+            <line x1="0" y1="76" x2="260" y2="76" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+            <path class="growth-path" id="growthPath" d="M4,66 C72,52 122,30 178,14 C210,6 234,3 256,1" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+            <path class="decline-path" id="declinePath" d="M4,66 C72,70 148,74 256,76" fill="none" stroke="#4a4a4a" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="600"/>
+            <defs>
+              <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#E3A83D"/>
+                <stop offset="1" stop-color="#FFCE73"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="chart-legend">
+            <span><i class="dot gold"></i> 1% melhor por dia</span>
+            <span><i class="dot gray"></i> 1% pior por dia</span>
+          </div>
+          <div class="chart-numbers">
+            <div><div class="num">37×</div><div class="lbl">em 1 ano</div></div>
+            <div><div class="num">≈0</div><div class="lbl">em 1 ano</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- SECTION 2: why people fail -->
+  <section class="section" id="porque-falha">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">O problema real</span>
+        <h2>Não é falta de força de vontade. É falta de sistema.</h2>
+        <p>Quase todo mundo já tentou criar um hábito e desistiu antes de ver resultado. O problema nunca foi a pessoa — foi a estratégia.</p>
+      </div>
+      <div class="fail-grid reveal">
+        <div class="fail-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          <h3>Motivação passageira</h3>
+          <p>A motivação inicial some em poucas semanas — e sem ela, o esforço vira obrigação até ser abandonado.</p>
+        </div>
+        <div class="fail-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <h3>Ausência de sistema</h3>
+          <p>Metas apontam uma direção, mas quem sustenta o progresso no dia a dia é o sistema — e a maioria nunca constrói um.</p>
+        </div>
+        <div class="fail-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/><circle cx="12" cy="8" r="4"/></svg>
+          <h3>Hábitos mal desenhados</h3>
+          <p>Sem clareza, atração, facilidade e recompensa, qualquer hábito novo perde a disputa contra o piloto automático do cérebro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: the concept -->
+  <section class="section concept" id="conceito">
+    <div class="wrap concept-grid">
+      <div class="reveal">
+        <span class="eyebrow">O princípio central</span>
+        <div class="big-number">1<sup>%</sup></div>
+        <p>Parece pequeno demais para importar. É exatamente por isso que funciona: o cérebro ignora mudanças de 1%, mas o tempo não. Ele acumula cada decisão como juros compostos — silenciosamente, todos os dias, até virar um resultado impossível de ignorar.</p>
+        <div class="flight-note">Como dois voos saindo do mesmo aeroporto: um ajusta o curso em apenas 2 graus. No início, ninguém percebe diferença. <b>No fim da viagem, um chega ao destino — o outro termina no meio do oceano.</b></div>
+      </div>
+      <div class="reveal">
+        <div class="hero-visual" style="padding-top:32px;">
+          <div class="cap"><span>Composição diária</span><span>365 dias</span></div>
+          <svg viewBox="0 0 320 140" width="100%" height="auto" role="img" aria-hidden="true">
+            <line x1="0" y1="120" x2="320" y2="120" stroke="rgba(255,255,255,0.1)"/>
+            <line x1="0" y1="80" x2="320" y2="80" stroke="rgba(255,255,255,0.06)"/>
+            <line x1="0" y1="40" x2="320" y2="40" stroke="rgba(255,255,255,0.06)"/>
+            <path d="M4,118 L44,110 L84,96 L124,74 L164,46 L204,20 L244,4 L280,-10" fill="none" stroke="var(--gold-bright)" stroke-width="3" stroke-linecap="round" transform="translate(0,10)"/>
+          </svg>
+          <p style="font-size:13px; color:var(--fg-mute); margin-top:10px;">Cada ponto é um dia comum. Nenhum parece decisivo — até você olhar o gráfico inteiro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: whats inside -->
+  <section class="section" id="conteudo">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Dentro do e-book</span>
+        <h2>Um método completo, do primeiro dia ao dia 90.</h2>
+        <p>Nada de teoria solta. Cada capítulo entrega conceito, exemplo prático e exercício aplicável no mesmo dia.</p>
+      </div>
+      <div class="inside-grid reveal">
+        <div class="inside-card"><div class="check">✓</div><h3>Fundamentos dos Hábitos</h3><p>Por que pequenas ações se acumulam em resultados que parecem desproporcionais.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>As 4 Leis da Mudança</h3><p>O passo a passo para tornar qualquer hábito claro, atraente, fácil e satisfatório.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Exercícios Práticos</h3><p>Ferramentas para aplicar cada conceito na sua rotina, não apenas entendê-lo.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Plano de 90 Dias</h3><p>Um cronograma semana a semana para sair do zero e chegar à consistência real.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Estudos de Caso</h3><p>Situações reais — do sedentarismo às finanças — resolvidas com o mesmo método.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Checklist do Criador de Hábitos</h3><p>Avalie qualquer hábito novo antes de começar e aumente sua chance de sucesso.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Rastreador de Hábitos</h3><p>O sistema visual que transforma consistência em algo satisfatório de ver crescer.</p></div>
+        <div class="inside-card"><div class="check">✓</div><h3>Plano de Contingência</h3><p>O que fazer quando você falha — porque falhar faz parte, desistir não precisa.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: benefits -->
+  <section class="section" style="background:var(--bg-soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line);" id="beneficios">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">O que muda de verdade</span>
+        <h2>Isto não é sobre ler mais um livro. É sobre quem você se torna.</h2>
+      </div>
+      <div class="benefits reveal">
+        <div class="benefit-row"><span class="n">01</span><div><h3>Você cria disciplina de verdade</h3><p>Sem depender de motivação, porque o sistema funciona mesmo nos dias ruins.</p></div></div>
+        <div class="benefit-row"><span class="n">02</span><div><h3>Você vence a procrastinação</h3><p>Reduzindo cada hábito ao ponto em que começar se torna quase automático.</p></div></div>
+        <div class="benefit-row"><span class="n">03</span><div><h3>Você age mesmo sem vontade</h3><p>Porque aprende a separar identidade de humor — e agir de acordo com quem quer ser.</p></div></div>
+        <div class="benefit-row"><span class="n">04</span><div><h3>Você constrói uma identidade vencedora</h3><p>Cada pequena ação se torna um voto para o tipo de pessoa que você está se tornando.</p></div></div>
+        <div class="benefit-row"><span class="n">05</span><div><h3>Você aprende um método simples</h3><p>Sem jargão, sem complicação — só o que funciona, explicado de forma direta.</p></div></div>
+        <div class="benefit-row"><span class="n">06</span><div><h3>Você para de recomeçar do zero</h3><p>Porque finalmente entende por que os hábitos anteriores não se sustentaram.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: free sample -->
+  <section class="section" id="amostra">
+    <div class="wrap">
+      <div class="sample-card reveal">
+        <div>
+          <span class="eyebrow">Sem compromisso</span>
+          <h2>Leia uma amostra gratuita antes de decidir.</h2>
+          <p>Enviamos por e-mail um trecho real do e-book — a introdução e o primeiro capítulo. Sem pegadinha, sem cartão de crédito.</p>
+        </div>
+        <form class="sample-form" id="sampleForm" aria-label="Formulário de amostra gratuita">
+          <label for="sampleEmail" style="font-size:13px; color:var(--fg-dim);">Seu melhor e-mail</label>
+          <input class="field" type="email" id="sampleEmail" name="email" placeholder="voce@email.com" required aria-required="true">
+          <button type="submit" class="btn btn-primary btn-block" id="sampleBtn">Baixar PDF gratuito</button>
+          <p class="form-note">Enviamos apenas conteúdo relevante. Você pode cancelar quando quiser.</p>
+          <p class="form-msg" id="sampleMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: offer -->
+  <section class="section offer" id="oferta">
+    <div class="wrap">
+
+      <div class="offer-top reveal">
+        <span class="eyebrow">Oportunidade única</span>
+        <h2>Isso não é só um e-book.<br>É a virada que estava faltando.</h2>
+        <p>Por um valor simbólico, você recebe o método completo — não um resumo, não uma amostra. O mesmo conteúdo que já mudou a forma como Ana, Rafael e Carla lidam com seus hábitos, pronto para você aplicar hoje.</p>
+      </div>
+
+      <div class="offer-showcase reveal">
+        <div class="cover-frame">
+          <span class="badge-float">R$ 9,90</span>
+          <img src="capa.jpg" alt="Capa do e-book 1% a Cada Dia" loading="lazy" width="280" height="378">
+        </div>
+        <div class="see-receive">
+          <div class="sr-block">
+            <span class="eyebrow">O que você vai ver</span>
+            <ul>
+              <li>Um método estruturado em 3 partes: fundamentos, as 4 leis da mudança e estratégias avançadas</li>
+              <li>Exemplos reais e comparações lado a lado entre quem trava e quem avança</li>
+              <li>Gráficos e tabelas que tornam o conceito de 1% fácil de aplicar na prática</li>
+            </ul>
+          </div>
+          <div class="sr-block">
+            <span class="eyebrow">O que você vai receber</span>
+            <ul>
+              <li>E-book completo em PDF, liberado imediatamente após a compra</li>
+              <li>Exercícios práticos, checklist e rastreador de hábitos inclusos</li>
+              <li>Plano de ação de 90 dias, semana a semana, para não perder o ritmo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-card reveal">
+        <span class="offer-tag">Oferta de lançamento</span>
+        <span class="eyebrow">E-book completo</span>
+        <h2 style="font-size:26px; margin-top:12px;">1% a Cada Dia</h2>
+        <div class="price-row">
+          <span class="price-old">R$ 67,90</span>
+          <span class="price-new">R$ 9<span class="cents">,90</span></span>
+        </div>
+        <div class="price-save">Você economiza R$ 58,00 hoje</div>
+
+        <ul class="offer-feats">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l4 4 10-10"/></svg> Pagamento único, sem assinatura</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l4 4 10-10"/></svg> Acesso imediato após a compra</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l4 4 10-10"/></svg> Arquivo em PDF, leitura em qualquer dispositivo</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l4 4 10-10"/></svg> Exercícios, checklist e plano de 90 dias inclusos</li>
+        </ul>
+
+        <a href="https://pay.cakto.com.br/8fzn3r3_964400" id="checkoutLink" class="btn btn-primary btn-block" style="padding:18px;">Comprar agora — R$ 9,90</a>
+        <p class="form-note" style="margin-top:14px;">Compra 100% segura, processada pela Cakto.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: guarantee -->
+  <section class="section" style="padding-top:60px;">
+    <div class="wrap">
+      <div class="guarantee reveal">
+        <svg class="seal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l3 2 3-1 1 3 3 1-1 3 1 3-3 1-1 3-3-1-3 2-3-2-3 1-1-3-3-1 1-3-1-3 3-1 1-3 3 1 3-2z"/><path d="M9 12l2 2 4-4"/></svg>
+        <div>
+          <h3>Confiança em primeiro lugar</h3>
+          <p>Se o conteúdo não fizer sentido para você, é só chamar no suporte informado no e-mail de compra — sem burocracia. Nosso objetivo é que você aplique o método, não apenas que compre o e-book.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 9: FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Perguntas frequentes</span>
+        <h2>Tudo o que você precisa saber antes de comprar.</h2>
+      </div>
+      <div class="reveal" style="max-width:720px;">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Como eu recebo o e-book? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Após a confirmação do pagamento, você recebe o link de download por e-mail e também na tela de confirmação da compra. É instantâneo.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">É um arquivo em PDF? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Sim. Um único arquivo em PDF, otimizado para leitura tanto na tela do computador quanto no celular.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Posso ler no celular? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Sim, o layout foi pensado para leitura confortável em qualquer dispositivo — celular, tablet ou computador.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Por quanto tempo tenho acesso ao conteúdo? <span class="plus">+</span></button>
+          <div class="faq-a"><p>O acesso é vitalício. Depois de baixar o arquivo, ele é seu — sem prazo de expiração.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Preciso de algum aplicativo especial? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Não. Qualquer leitor de PDF padrão — já presente na maioria dos celulares e computadores — é suficiente.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <a href="#top" class="brand">1<span>%</span> a Cada Dia</a>
+      <div class="foot-links">
+        <a href="#" aria-label="Política de Privacidade">Política de Privacidade</a>
+        <a href="#" aria-label="Termos de Uso">Termos de Uso</a>
+        <a href="mailto:contato@seudominio.com" aria-label="Contato por e-mail">Contato</a>
+      </div>
+    </div>
+    <p class="foot-copy">© <span id="year"></span> 1% a Cada Dia. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta" role="complementary" aria-label="Chamada para ação fixa">
+  <span>Só hoje por R$ 9,90</span>
+  <a href="#oferta" class="btn btn-primary">Comprar agora</a>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- CONFIG ----
+  var APPS_SCRIPT_URL = "COLOQUE_AQUI_A_URL_DO_SEU_GOOGLE_APPS_SCRIPT";
+  var SAMPLE_PDF_URL = "amostra-gratuita-1porcento.pdf";
+  // O link de checkout da Cakto já está aplicado direto no botão no HTML.
+  // -------------------------------------------------
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Reveal on scroll
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var revealEls = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && !prefersReduced) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold: 0.15});
+    revealEls.forEach(function(el){ io.observe(el); });
+
+    var chartObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          document.getElementById("growthPath").classList.add("in");
+          document.getElementById("declinePath").classList.add("in");
+          chartObserver.disconnect();
+        }
+      });
+    }, {threshold: 0.4});
+    var heroVisual = document.getElementById("heroVisual");
+    if (heroVisual) chartObserver.observe(heroVisual);
+  } else {
+    revealEls.forEach(function(el){ el.classList.add("in"); });
+    var gp = document.getElementById("growthPath"), dp = document.getElementById("declinePath");
+    if (gp) gp.classList.add("in");
+    if (dp) dp.classList.add("in");
+  }
+
+  // FAQ accordion
+  document.querySelectorAll(".faq-item").forEach(function(item){
+    var btn = item.querySelector(".faq-q");
+    var answer = item.querySelector(".faq-a");
+    btn.addEventListener("click", function(){
+      var isOpen = item.classList.contains("open");
+      document.querySelectorAll(".faq-item.open").forEach(function(openItem){
+        if (openItem !== item) {
+          openItem.classList.remove("open");
+          openItem.querySelector(".faq-a").style.maxHeight = null;
+          openItem.querySelector(".faq-q").setAttribute("aria-expanded", "false");
+        }
+      });
+      if (isOpen) {
+        item.classList.remove("open");
+        answer.style.maxHeight = null;
+        btn.setAttribute("aria-expanded", "false");
+      } else {
+        item.classList.add("open");
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        btn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
+  // Sample form -> Google Apps Script
+  var sampleForm = document.getElementById("sampleForm");
+  var sampleMsg = document.getElementById("sampleMsg");
+  var sampleBtn = document.getElementById("sampleBtn");
+  sampleForm.addEventListener("submit", function(e){
+    e.preventDefault();
+    var email = document.getElementById("sampleEmail").value.trim();
+    if (!email) return;
+
+    sampleBtn.disabled = true;
+    sampleBtn.textContent = "Enviando...";
+
+    function unlockDownload(){
+      sampleMsg.textContent = "Pronto! Clique para baixar sua amostra.";
+      sampleMsg.className = "form-msg show ok";
+      sampleBtn.textContent = "Abrir amostra gratuita";
+      sampleBtn.disabled = false;
+      sampleBtn.onclick = function(ev){
+        ev.preventDefault();
+        window.open(SAMPLE_PDF_URL, "_blank");
+      };
+    }
+
+    if (APPS_SCRIPT_URL.indexOf("COLOQUE_AQUI") !== -1) {
+      // Placeholder: sem endpoint configurado ainda
+      setTimeout(unlockDownload, 500);
+      return;
+    }
+
+    fetch(APPS_SCRIPT_URL, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({email: email, origem: "amostra-1porcento"})
+    }).then(function(){
+      unlockDownload();
+    }).catch(function(){
+      sampleMsg.textContent = "Não foi possível enviar agora. Tente novamente em instantes.";
+      sampleMsg.className = "form-msg show";
+      sampleBtn.disabled = false;
+      sampleBtn.textContent = "Baixar PDF gratuito";
+    });
+  });
+
+  // Sticky CTA after hero
+  var stickyCta = document.getElementById("stickyCta");
+  var offerSection = document.getElementById("oferta");
+  window.addEventListener("scroll", function(){
+    var showAfter = window.innerHeight * 0.9;
+    var offerTop = offerSection.getBoundingClientRect().top + window.scrollY;
+    var scrollY = window.scrollY;
+    if (scrollY > showAfter && scrollY < offerTop - 200) {
+      stickyCta.classList.add("show");
+    } else {
+      stickyCta.classList.remove("show");
+    }
+  }, {passive: true});
+
+})();
+</script>
+
+</body>
+</html>
